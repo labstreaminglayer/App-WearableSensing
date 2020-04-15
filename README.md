@@ -3,7 +3,7 @@
 This application supports several dry/wireless EEG headsets made by [Wearable Sensing](http://www.wearablesensing.com).
 
 You can find prebuilt binaries for Windows, Linux, and Mac OS on the Releases
-page of this repository. For build instructions, see section [Building From Source](#building-from-source) below.
+page of this repository. For build instructions, see section [Building From Source](#building-dsi2lsl-from-source) below.
 
 *Note*: The program has been tested with the DSI-7 and the DSI-VR300 headsets, 
 but several other headset models should work, as well.
@@ -34,7 +34,7 @@ Now that your headset is paired, and you have the port name, you can use
 either the command-line interface or the graphical user interface. To use the 
 GUI, launch the program dsi2lslgui, which should open a window like this:
 
-![app-screen.PNG](app-screen.PNG)
+![app-screen.png](app-screen.png)
 
 When filling in information, be sure to review the tooltips of the various
 entry fields by hovering over them with the mouse.
@@ -248,7 +248,7 @@ reference (typically Pz) if these sensors are not available.
 ```
 
 
-#Building dsi2lsl From Source
+# Building dsi2lsl From Source
 
 ### All Operating Systems
 
