@@ -252,8 +252,8 @@ reference (typically Pz) if these sensors are not available.
 
 ### All Operating Systems
 
-Before you can build this software, you need to obtain the SDK binaries and headers
-from Wearable Sensing. The are available [here](http://www.wearablesensing.com).
+Before you can build this software, you currently have to download the SDK 
+binaries and headers for the device. The are available [here](https://wearablesensing.com/files/DSI-API_Current.zip).
 These binaries are only needed to build the `dsi2lsl` program (the `dsi2lslgui` 
 GUI application is a separate program that launches the former).
 
