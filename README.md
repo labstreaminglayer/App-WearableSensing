@@ -12,7 +12,8 @@ but several other headset models should work, as well.
 
 To use this software, you do __not__ need the *DSI-Streamer* program, although it is
 helpful to have at hand during headset setup (e.g., for checking impedances or
-for troubleshooting).
+for troubleshooting). However, only one program can access the device at
+a time, so keep in mind to turns the DSI Streamer off before using this application.
 
 Your headset, which is a Bluetooth device, has to be paired with your machine 
 in order to use it with dsi2lsl. The recommended procedure is to follow the 
@@ -211,7 +212,7 @@ export LD_LIBRARY_PATH=/your/path/to/CLI:$LD_LIBRARY_PATH
 Specify the serial port with the --port option. If not specified, the API will 
 look for an environment variable called `DSISerialPort`. This example uses the 
 serial port that the device is binded to on GNU/Linux, for other platforms see 
-the previous secton.
+the previous section.
 
 ``` bash
 ./dsi2lsl --port=/dev/rfcomm0
