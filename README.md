@@ -305,7 +305,7 @@ cd /your/path/to/CLI
 
 ## Windows
 
-Compile the project. We used out of the box MinGW distribution of gcc as the 
+Compile the project. We used the out of the box MinGW distribution of gcc as the 
 compiler (see a tutorial [here](http://www.mingw.org/wiki/howto_install_the_mingw_gcc_compiler_suite)), 
 although MS Visual C++ and others may work as well. Note that this command assumes 
 that your liblsl is called `liblsl32.dll` (and not, e.g., `liblsl.dll`). 
