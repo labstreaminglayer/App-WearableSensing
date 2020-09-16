@@ -189,7 +189,7 @@ ls -l tty.*
 For us this returned `/dev/tty.DSI7-017-BluetoothSeria`. This name is what you
 would pass into the dsi2lsl application as the port name.
 
-#Usage (CLI)
+# Usage (CLI)
 
 The app runs in the same way on the three platforms. Below we illustrate the 
 different options that can be used. With the exception of the option --help, all 
