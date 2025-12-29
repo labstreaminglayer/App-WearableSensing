@@ -28,7 +28,9 @@ ui_*.h
 *.qmlc
 *.jsc
 Makefile*
-*build-*
+*build-*/
+build/
+*-build-*/
 *.qm
 *.prl
 
@@ -50,3 +52,12 @@ compile_commands.json
 
 # QtCreator local machine specific files for imported projects
 *creator.user*
+
+#two downloaded folders + build
+/DSI_API*/
+/liblsl*/
+/build/
+/API*/
+/LSL/*
+
+/dsi-api*/
